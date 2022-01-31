@@ -1,0 +1,53 @@
+Mon Jan 31 11:50:38 GMT+05:30 2022 DATA OneDSUtils OneDS mitigation checks passed 
+Mon Jan 31 11:50:39 GMT+05:30 2022 I com.microsoft.crossplaform.interop.h loadStaticLibraries 
+Mon Jan 31 11:50:39 GMT+05:30 2022 DATA com.microsoft.odsp.o0.d Build model matches: false 
+Mon Jan 31 11:50:39 GMT+05:30 2022 I com.microsoft.onedrivecore.LogWriterInterface Application is not started (:0) 
+Mon Jan 31 11:50:39 GMT+05:30 2022 I com.microsoft.onedrivecore.LogWriterInterface Starting application (:0) 
+Mon Jan 31 11:50:39 GMT+05:30 2022 W com.microsoft.onedrivecore.LogWriterInterface WARNING: QApplication was not created in the main() thread. (:0) 
+Mon Jan 31 11:50:39 GMT+05:30 2022 I com.microsoft.onedrivecore.LogWriterInterface Opening database  "/data/user/0/com.microsoft.skydrive/files/QTMetadata.db" (:0) 
+Mon Jan 31 11:50:39 GMT+05:30 2022 V WifiAvailableJob Scheduling a WifiAvailableJob job. 
+Mon Jan 31 11:50:40 GMT+05:30 2022 I com.microsoft.onedrivecore.LogWriterInterface Current DB version is  146 (:0) 
+Mon Jan 31 11:50:40 GMT+05:30 2022 I com.microsoft.onedrivecore.LogWriterInterface Log the database file info (:0) 
+Mon Jan 31 11:50:40 GMT+05:30 2022 I com.microsoft.onedrivecore.LogWriterInterface File: "/data/user/0/com.microsoft.skydrive/files/QTMetadata.db" size: 724992 bytes permission: QFlags(0x200|0x400|0x2000|0x4000) (:0) 
+Mon Jan 31 11:50:40 GMT+05:30 2022 I com.microsoft.onedrivecore.LogWriterInterface File: "/data/user/0/com.microsoft.skydrive/files/QTMetadata.db-shm" size: 32768 bytes permission: QFlags(0x200|0x400|0x2000|0x4000) (:0) 
+Mon Jan 31 11:50:40 GMT+05:30 2022 I com.microsoft.onedrivecore.LogWriterInterface File: "/data/user/0/com.microsoft.skydrive/files/QTMetadata.db-wal" size: 0 bytes permission: QFlags(0x200|0x400|0x2000|0x4000) (:0) 
+Mon Jan 31 11:50:40 GMT+05:30 2022 I com.microsoft.onedrivecore.LogWriterInterface onAppLaunch: updates records:  0 (:0) 
+Mon Jan 31 11:50:40 GMT+05:30 2022 I com.microsoft.onedrivecore.LogWriterInterface Deleted  0  comments (cLocalStatus = cAddingToServer) on launch. (:0) 
+Mon Jan 31 11:50:40 GMT+05:30 2022 I com.microsoft.onedrivecore.LogWriterInterface Updated  0  comments (cLocalStatus = cDeletingFromServer or cFailedToDeleteFromServer) on launch. (:0) 
+Mon Jan 31 11:50:40 GMT+05:30 2022 I com.microsoft.onedrivecore.LogWriterInterface cleanOrphanedCacheAsyncIfNecessary has the settings to run cleanup false (:0) 
+Mon Jan 31 11:50:40 GMT+05:30 2022 I com.microsoft.authorization.g1.d Build.VERSION.SDK_INT 29 
+Mon Jan 31 11:50:40 GMT+05:30 2022 DATA OneDrivePrivacyDelegate (Q) QoS RequiredServiceData null null true 
+Mon Jan 31 11:50:40 GMT+05:30 2022 DATA DailyJob com.microsoft.skydrive.jobs.LocalNotificationDailyJob.onStartJob() called  
+Mon Jan 31 11:50:40 GMT+05:30 2022 DATA DailyJob com.microsoft.skydrive.jobs.LocalNotificationDailyJob.onStartJob(): Scheduling thread 
+Mon Jan 31 11:50:40 GMT+05:30 2022 DATA DailyJob com.microsoft.skydrive.jobs.LocalNotificationDailyJob.onStartJob(): requestingToRunJob: true 
+Mon Jan 31 11:50:40 GMT+05:30 2022 DATA DailyJob com.microsoft.skydrive.jobs.LocalNotificationDailyJob.onStartJob(): Thread scheduled 
+Mon Jan 31 11:50:40 GMT+05:30 2022 DATA LocalNotificationDailyJob Running Daily Job 
+Mon Jan 31 11:50:40 GMT+05:30 2022 DATA DailyJob com.microsoft.skydrive.jobs.SamsungMigrationStateJob.onStartJob() called  
+Mon Jan 31 11:50:40 GMT+05:30 2022 DATA DailyJob com.microsoft.skydrive.jobs.SamsungMigrationStateJob.onStartJob(): Scheduling thread 
+Mon Jan 31 11:50:40 GMT+05:30 2022 DATA DailyJob com.microsoft.skydrive.jobs.SamsungMigrationStateJob.onStartJob(): requestingToRunJob: true 
+Mon Jan 31 11:50:40 GMT+05:30 2022 DATA DailyJob com.microsoft.skydrive.jobs.SamsungMigrationStateJob.onStartJob(): Thread scheduled 
+Mon Jan 31 11:50:40 GMT+05:30 2022 DATA DailyJob com.microsoft.skydrive.jobs.SamsungMigrationStateJob.onStartJob(): Thread's finally block 
+Mon Jan 31 11:50:40 GMT+05:30 2022 DATA DailyJob Received request for com.microsoft.skydrive.jobs.SamsungMigrationStateJob to run between 11:00:00.000 and 17:00:00.000 (absolute time of day) 
+Mon Jan 31 11:50:40 GMT+05:30 2022 DATA DailyJob Scheduled time for com.microsoft.skydrive.jobs.SamsungMigrationStateJob is to run between 23:40:31.000 and 29:40:31.000 from now 
+Mon Jan 31 11:50:40 GMT+05:30 2022 DATA SamsungMigrationStateJob OnStopJob called 
+Mon Jan 31 11:50:40 GMT+05:30 2022 I FileUploadUtils isSupportedAutoUploadAccountAvailable returned false because no supported account found. 
+Mon Jan 31 11:50:41 GMT+05:30 2022 DATA DailyJob com.microsoft.skydrive.jobs.LocalNotificationDailyJob.onStartJob(): Thread's finally block 
+Mon Jan 31 11:50:41 GMT+05:30 2022 DATA DailyJob Received request for com.microsoft.skydrive.jobs.LocalNotificationDailyJob to run between 11:00:00.000 and 17:00:00.000 (absolute time of day) 
+Mon Jan 31 11:50:41 GMT+05:30 2022 DATA com.microsoft.authorization.cloudaccounts.a Read ServiceConnections list from preferences: 0 
+Mon Jan 31 11:50:41 GMT+05:30 2022 DATA com.microsoft.authorization.cloudaccounts.a Read hidden cloud account IDs list from preferences: 0 
+Mon Jan 31 11:50:41 GMT+05:30 2022 DATA DailyJob Scheduled time for com.microsoft.skydrive.jobs.LocalNotificationDailyJob is to run between 23:51:24.000 and 29:51:24.000 from now 
+Mon Jan 31 11:50:41 GMT+05:30 2022 DATA LocalNotificationDailyJob OnStopJob called 
+Mon Jan 31 11:50:41 GMT+05:30 2022 DATA DeviceAndApplicationInfo Pre: false 
+Mon Jan 31 11:50:41 GMT+05:30 2022 DATA DeviceAndApplicationInfo Pre: true 
+Mon Jan 31 11:50:41 GMT+05:30 2022 I FileUploadUtils isSupportedAutoUploadAccountAvailable returned false because no supported account found. 
+Mon Jan 31 11:50:42 GMT+05:30 2022 DATA OneDrivePrivacyDelegate (Q) QoS RequiredServiceData null null true 
+Mon Jan 31 11:50:42 GMT+05:30 2022 DATA SamsungAuthUtils Querying for Samsung migration status took: 1981 
+Mon Jan 31 11:50:42 GMT+05:30 2022 DATA OneDrivePrivacyDelegate (Q) QoS RequiredServiceData null null true 
+Mon Jan 31 11:50:42 GMT+05:30 2022 DATA SamsungMigrationUpsellJob isMigrationSupported = false, migrationStatus = Unknown 
+Mon Jan 31 11:50:42 GMT+05:30 2022 DATA SamsungMigrationUpsellJob isEnabled = false, timesShown = 0 
+Mon Jan 31 11:50:42 GMT+05:30 2022 DATA OneDrivePrivacyDelegate (Q) QoS RequiredServiceData null null true 
+Mon Jan 31 11:50:42 GMT+05:30 2022 DATA com.microsoft.skydrive.SkyDriveApplication Cancelling Samsung migration upsell job 
+Mon Jan 31 11:50:42 GMT+05:30 2022 DATA MeridianActivity isMeridianEnabled: true, isRampEnabled: true, isSamsungDevice: true, mockSamsungPreInstalled: false 
+Mon Jan 31 11:50:42 GMT+05:30 2022 DATA MeridianActivity isMeridianEnabled: true, isRampEnabled: true, isSamsungDevice: true, mockSamsungPreInstalled: false 
+Mon Jan 31 11:50:42 GMT+05:30 2022 DATA MeridianUpsellJob Job is not scheduled, no need to cancel it 
+Mon Jan 31 11:52:24 GMT+05:30 2022 I com.microsoft.onedrivecore.LogWriterInterface Merge wal to database. before merge: 0 after merge: 0 first db action on: 1643610039 now: 1643610144 time to merge: 2 (:0) 
